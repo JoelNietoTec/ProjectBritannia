@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html ng-app="mainApp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Project Britannia Web</title>
+	<meta charset="utf-8" />
+    <!--jQuery-->
+    <script src="lib/jQuery/jquery-2.2.2.min.js"></script>
+    <!--AngularJS-->
+    <script src="lib/AngularJS/angular.min.js" ></script>
+    <script src="lib/AngularJS/angular-route.min.js"></script>
+    <!--Bootstrap-->
+    <script src="lib/bootstrap/Scripts/bootstrap.min.js" async></script>
+    <link href="lib/bootstrap/Content/bootstrap.css" rel="stylesheet"/>
+    <!--WinJS-->
+    <script src="lib/WinJS/js/base.min.js" async></script>
+    <script src="lib/WinJS/js/ui.min.js" async></script>
+    <link href="lib/WinJS/css/ui-light.css" rel="stylesheet"/>
+    
+    <!--App-->
+    <script src="Scripts/app.js"></script>
+
+</head>
+<body>
+    <div class="win-container container-fluid" ng-controller="HomeController">
+        <h1 class="win-h1">Hola Mundo! {{nombre}}</h1>
+    </div>
+</body>
+</html>
